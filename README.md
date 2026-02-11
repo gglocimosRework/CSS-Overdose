@@ -8,6 +8,6 @@
  - This is what happens when CSS drinks too much energy drink.
 
 ### Languages used: 
--HTML 
+- HTML 
 - CSS (not with Tailwind)
 
