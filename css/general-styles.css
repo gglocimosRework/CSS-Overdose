@@ -1,14 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    
+    margin: 0px;
+    padding: 0px;
      background: repeating-linear-gradient(
     45deg, #000000,#000000, #c4c4c4, #000000);
-
     background-size: 400%;
-    padding: 15px 30px; 
-
     transition: 0.7s;
     animation: gradientShift 5s ease infinite;
 }
@@ -26,7 +22,7 @@ button {
     
     font-size: 50px;
     color: #333;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 
 }
 .color-space-zero {
@@ -41,11 +37,37 @@ button {
 }
 
 .content-flex {
+    flex: 1 1 300px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.another-layout {
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.header {
+    text-align: center;
+   
+}
+
+.buttons-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 60px;
+    width: 100%;
+    gap: 20px;
 }
 
 @media (max-width: 1000px) {
