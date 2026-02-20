@@ -15,6 +15,10 @@ button {
     font-weight: bold;
 }
 
+button:active {
+ transform: translateY(2px) scale(0.90);
+}
+
 .button-title {
     display: flex;
     justify-content: center;

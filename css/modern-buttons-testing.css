@@ -1,0 +1,81 @@
+.glass-button {
+    background: rgba(0, 255, 0, 0.7);
+    color: #00ff6681;
+    backdrop-filter: blur(10px); 
+     -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 255, 100, 0.3);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s ease, box-shadow 0.3 ease;
+}
+
+.glass-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 40px rgba(0, 255, 100, 0.5);
+}
+
+.glass-button:active {
+  transform: none;
+  filter: brightness(0.8)
+}
+.simple-hover-button {
+    background-color: #be0909;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 28px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+
+.simple-hover-button:hover {
+    transform: translateY(-4px);
+}
+
+
+.simple-hover-button:active {
+    transform: translateY(2px) scale(0.97); 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15); 
+    filter: brightness(0.9); 
+}
+
+.simple-scale-button {
+  background-color: #0a7c7c;
+  color: white;
+  border: none;
+  padding: 15px 28px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.simple-scale-button:hover {
+  transform: scale(1.10);
+}
+
+.simple-scale-button:active {
+    transform: scale(0.95);
+    filter: brightness(0.87);
+    transition: 0.1s;
+}
+
+.simple-shadow-button {
+   padding: 12px 25px;
+  background-color: #666;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+
+.simple-shadow-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 12px rgb(85, 81, 81);
+}
+
+.simple-shadow-button:active {
+    transform: scale(0.91);
+    box-shadow: 0 10px 20px rgba(85, 81, 81, 0.9);
+}
